@@ -45,7 +45,7 @@ class DescriptionPlace extends StatelessWidget{
     );
 
     //fila estrellas
-    List<Container> estrellas = new List();
+    List<Container> estrellas = [];
     for(int i=0; i<5; i++){
       if(i < cantidadEstrellas){
        estrellas.add(estrella);
