@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:miproyecto/card_image.dart';
 import 'package:miproyecto/gradient_back.dart';
+import 'package:miproyecto/home_app_bar.dart';
 import 'package:miproyecto/review.dart';
 import 'package:miproyecto/review_list.dart';
 
@@ -39,7 +41,7 @@ class MyHome extends StatelessWidget{
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          GradientBack()
+          CardImage("assets/images/imagen7.jpg")
         ],
       ),
     );
