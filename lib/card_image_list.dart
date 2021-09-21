@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:miproyecto/card_image.dart';
 
@@ -17,7 +16,6 @@ class CardImageList extends StatelessWidget {
           CardImage("assets/images/imagen10.jpg"),
           CardImage("assets/images/imagen11.jpg"),
           CardImage("assets/images/imagen12.jpg"),
-          //CardImage("assets/images/imagen7.jpg"),
 
         ],
       ),
